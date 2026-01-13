@@ -4,8 +4,8 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello from GitOps with ArgoCD!',
-    version: '1.0.0',
+    message: 'Hello from GitOps v1.1 - Auto-deployed!',
+    version: '1.1.0',
     environment: process.env.ENVIRONMENT || 'development'
   });
 });

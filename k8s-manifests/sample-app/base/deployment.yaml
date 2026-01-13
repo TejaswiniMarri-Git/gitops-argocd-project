@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: teja2409/sample-app:v1.0.0
+        image: teja2409/sample-app:v1.1.0
         ports:
         - containerPort: 3000
         env:
