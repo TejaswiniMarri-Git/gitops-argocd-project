@@ -10,6 +10,38 @@ This project demonstrates a production-ready GitOps workflow where:
 - Multi-environment deployments (dev/prod) with different configurations
 - Automated deployments, self-healing, and rollback capabilities
 
+## 📸 Project Screenshots
+
+### ArgoCD Applications Dashboard
+![ArgoCD UI Overview](screenshots/argocd-applications-overview.png)
+
+*ArgoCD dashboard showing both dev and prod applications synced and healthy*
+
+### Application Deployment Status
+![Applications Status](screenshots/argocd-applications-status.png)
+
+*Command line view of ArgoCD applications*
+
+### Multi-Environment Pod Deployment
+![Pods Running](screenshots/dev-prod-pods-running.png)
+
+*Dev environment with 1 replica and Prod with 3 replicas running*
+
+### Application Responses
+
+**Dev Environment**
+![Dev Response](screenshots/dev-environment-curl-response.png)
+
+**Production Environment**
+![Prod Response](screenshots/prod-environment-curl-response.png)
+
+### Complete System Overview
+![System Overview](screenshots/complete-system-overview.png)
+
+*Complete Kubernetes cluster status with all components*
+
+---
+
 ## 🏗️ Architecture
 ```
 GitHub Repository (Source of Truth)
